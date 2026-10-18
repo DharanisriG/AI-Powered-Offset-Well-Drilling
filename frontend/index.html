@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drilling AI — Offset Well Experience & Decision Support</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <div>
+          <h1 class="brand-title">Drilling AI</h1>
+          <span class="brand-badge">Decision Support</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item active" data-tab="dashboard">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="7" height="9"></rect>
+            <rect x="14" y="3" width="7" height="5"></rect>
+            <rect x="14" y="12" width="7" height="9"></rect>
+            <rect x="3" y="16" width="7" height="5"></rect>
+          </svg>
+          Dashboard
+        </button>
+
+        <button class="nav-item" data-tab="current-well">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+          Current Well
+        </button>
+
+        <button class="nav-item" data-tab="offset-wells">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="8" y1="6" x2="21" y2="6"></line>
+            <line x1="8" y1="12" x2="21" y2="12"></line>
+            <line x1="8" y1="18" x2="21" y2="18"></line>
+            <line x1="3" y1="6" x2="3.01" y2="6"></line>
+            <line x1="3" y1="12" x2="3.01" y2="12"></line>
+            <line x1="3" y1="18" x2="3.01" y2="18"></line>
+          </svg>
+          Offset Wells
+        </button>
+
+        <button class="nav-item highlight-nav" data-tab="historical-experience">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          Historical Experience
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="backend-status">
+          <span class="status-indicator" id="status-dot"></span>
+          <span class="status-text" id="status-text">Connecting...</span>
+        </div>
+        <div class="dataset-meta" id="dataset-meta">500 Wells | 1,779 Events</div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Top Bar Header -->
+      <header class="top-header">
+        <div>
+          <h2 class="page-title" id="page-title">Drilling AI</h2>
+          <p class="page-subtitle" id="page-subtitle">Offset Well Experience & Decision Support</p>
+        </div>
+      </header>
+
+      <!-- Global Alert / Notification Banner -->
+      <div id="connection-alert" class="alert-banner error-banner hidden">
+        <span>Backend connection error. Make sure FastAPI server is running on http://127.0.0.1:8000</span>
+      </div>
+
+      <!-- Tab 1: DASHBOARD -->
+      <section id="tab-dashboard" class="tab-pane active">
+        <div class="dashboard-grid">
+          <!-- Current Well Card -->
+          <div class="card current-well-card">
+            <div class="card-header">
+              <div class="well-id-badge">
+                <span class="badge-label">Active Drilling Well</span>
+                <h3 class="well-id" id="dash-well-id">NWIS-X1</h3>
+              </div>
+              <button class="btn btn-outline btn-sm" id="btn-edit-well">Edit Parameters</button>
+            </div>
+
+            <div class="parameters-grid">
+              <div class="param-box">
+                <span class="param-label">Current Depth</span>
+                <span class="param-value" id="dash-depth">2,780.0 <small>m</small></span>
+              </div>
+              <div class="param-box">
+                <span class="param-label">Formation</span>
+                <span class="param-value" id="dash-formation">Daman Sandstone</span>
+              </div>
+              <div class="param-box">
+                <span class="param-label">Field</span>
+                <span class="param-value" id="dash-field">Tapti</span>
+              </div>
+              <div class="param-box">
+                <span class="param-label">Mud Weight</span>
+                <span class="param-value" id="dash-mw">12.9 <small>ppg</small></span>
+              </div>
+              <div class="param-box">
+                <span class="param-label">Formation Pressure</span>
+                <span class="param-value" id="dash-press">5,520 <small>psi</small></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Similar Historical Experience Section -->
+          <div class="card similar-experience-card">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title">Similar Historical Experience</h3>
+                <p class="card-description">Top matched offset wells based on current geological & operational conditions</p>
+              </div>
+              <button class="btn btn-primary btn-sm" id="dash-refresh-similar">Re-match</button>
+            </div>
+
+            <div id="dash-similar-loading" class="state-container hidden">
+              <div class="spinner"></div>
+              <span>Searching 500 offset wells...</span>
+            </div>
+
+            <div id="dash-similar-list" class="similar-wells-list">
+              <!-- Dynamically populated via app.js -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 2: CURRENT WELL PAGE -->
+      <section id="tab-current-well" class="tab-pane hidden">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">Current Well Situation & Operational Envelope</h3>
+              <p class="card-description">Input active parameters to query nearest historical offset wells</p>
+            </div>
+            <div class="scenario-selector-wrap">
+              <label for="scenario-preset" class="preset-label">Test Scenario:</label>
+              <select id="scenario-preset" class="form-select">
+                <option value="tapti-gas">Tapti Overpressured Sand (NWIS-X1)</option>
+                <option value="mumbai-loss">Mumbai Offshore Bassein Limestone (Loss Zone)</option>
+                <option value="mukta-shale">Mukta Reactive Swelling Shale (Tight Hole)</option>
+                <option value="ratna-sticking">Ratna High-Angle Sand (Differential Sticking)</option>
+              </select>
+            </div>
+          </div>
+
+          <form id="well-form" class="two-column-form">
+            <div class="form-column">
+              <h4 class="form-section-title">Well Identification & Trajectory</h4>
+              <div class="form-group">
+                <label for="input-well-id">Well Identifier</label>
+                <input type="text" id="input-well-id" value="NWIS-X1" class="form-input" >
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="input-field">Field</label>
+                  <input type="text" id="input-field" value="Tapti" class="form-input">
+                </div>
+                <div class="form-group">
+                  <label for="input-formation">Formation</label>
+                  <input type="text" id="input-formation" value="Daman Sandstone" class="form-input">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="input-total-depth">Total Depth (m)</label>
+                  <input type="number" id="input-total-depth" value="3020.0" step="10" class="form-input" required>
+                </div>
+                <div class="form-group">
+                  <label for="input-current-depth">Current Depth (m)</label>
+                  <input type="number" id="input-current-depth" value="2780.0" step="10" class="form-input" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="input-inclination">Inclination (°)</label>
+                  <input type="number" id="input-inclination" value="37.0" step="0.5" class="form-input" required>
+                </div>
+                <div class="form-group">
+                  <label for="input-azimuth">Azimuth (°)</label>
+                  <input type="number" id="input-azimuth" value="143.0" step="1" class="form-input" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-column">
+              <h4 class="form-section-title">Hydraulic & Drilling Parameters</h4>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="input-mud-weight">Mud Weight (ppg)</label>
+                  <input type="number" id="input-mud-weight" value="12.9" step="0.1" class="form-input" required>
+                </div>
+                <div class="form-group">
+                  <label for="input-pressure">Pore Pressure (psi)</label>
+                  <input type="number" id="input-pressure" value="5520.0" step="50" class="form-input" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="input-rop">Rate of Penetration (m/hr)</label>
+                  <input type="number" id="input-rop" value="22.0" step="0.5" class="form-input" required>
+                </div>
+                <div class="form-group">
+                  <label for="input-wob">Weight on Bit (klbs)</label>
+                  <input type="number" id="input-wob" value="22.0" step="0.5" class="form-input" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="input-torque">Drilling Torque (kft-lb)</label>
+                <input type="number" id="input-torque" value="15.8" step="0.2" class="form-input" required>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary btn-block" id="btn-find-similar">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                  Find Similar Wells
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Matched Similar Wells Results -->
+        <div id="current-well-results" class="card mt-4 hidden">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">Top Offset Wells Matches</h3>
+              <p class="card-description" id="match-explanation">Scikit-Learn KNN Model comparison across 8 standardized features</p>
+            </div>
+          </div>
+          <div id="current-well-matches" class="matches-container">
+            <!-- Populated via app.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 3: OFFSET WELLS PAGE -->
+      <section id="tab-offset-wells" class="tab-pane hidden">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">Historical Offset Wells Catalog</h3>
+              <p class="card-description">Dataset of 500 validated historical wells across Indian offshore basins</p>
+            </div>
+            <div class="filter-controls">
+              <input type="text" id="offset-search" placeholder="Search Well ID..." class="form-input search-input">
+              <select id="offset-field-filter" class="form-select">
+                <option value="">All Fields (7)</option>
+                <option value="Mumbai Offshore">Mumbai Offshore</option>
+                <option value="Bassein">Bassein</option>
+                <option value="Tapti">Tapti</option>
+                <option value="Daman">Daman</option>
+                <option value="Heera">Heera</option>
+                <option value="Ratna">Ratna</option>
+                <option value="Mukta">Mukta</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="offset-loading" class="state-container">
+            <div class="spinner"></div>
+            <span>Loading wells from database...</span>
+          </div>
+
+          <div class="table-responsive">
+            <table class="data-table" id="offset-wells-table">
+              <thead>
+                <tr>
+                  <th>Well ID</th>
+                  <th>Field</th>
+                  <th>Formation</th>
+                  <th>Total Depth</th>
+                  <th>Mud Wt</th>
+                  <th>Pressure</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="offset-wells-tbody">
+                <!-- Dynamically populated -->
+              </tbody>
+            </table>
+          </div>
+
+          <div class="table-pagination">
+            <span id="pagination-info" class="pagination-info">Showing 0 of 0 wells</span>
+            <div class="pagination-buttons">
+              <button class="btn btn-outline btn-sm" id="btn-prev-page" disabled>Previous</button>
+              <button class="btn btn-outline btn-sm" id="btn-next-page">Next</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab 4: HISTORICAL EXPERIENCE PAGE (MOST IMPORTANT) -->
+      <section id="tab-historical-experience" class="tab-pane hidden">
+        <!-- Numbered Decision Support Flow Banner -->
+        <div class="evidence-flow-card">
+          <div class="flow-pill-group">
+            <div class="flow-pill active">1. Current Situation</div>
+            <span class="flow-separator">→</span>
+            <div class="flow-pill active">2. Similar Offset Well</div>
+            <span class="flow-separator">→</span>
+            <div class="flow-pill active">3. Relevant Historical Event</div>
+            <span class="flow-separator">→</span>
+            <div class="flow-pill active">4. Action Taken</div>
+            <span class="flow-separator">→</span>
+            <div class="flow-pill active">5. Result</div>
+          </div>
+        </div>
+
+        <div id="experience-loading" class="state-container hidden">
+          <div class="spinner"></div>
+          <span>Retrieving historical experiences & previous actions...</span>
+        </div>
+
+        <!-- 1. Current Situation Summary Box -->
+        <div class="card experience-step-card">
+          <div class="step-badge">1. Current Situation</div>
+          <div class="experience-situation-header">
+            <div>
+              <h3 class="well-id-large" id="exp-current-well-id">NWIS-X1</h3>
+              <p class="text-muted" id="exp-current-location">Tapti Field • Daman Sandstone</p>
+            </div>
+            <div class="situation-stats">
+              <div class="stat-pill"><span class="lbl">Depth:</span> <strong id="exp-cur-depth">2,780.0 m</strong></div>
+              <div class="stat-pill"><span class="lbl">Mud Wt:</span> <strong id="exp-cur-mw">12.9 ppg</strong></div>
+              <div class="stat-pill"><span class="lbl">Pressure:</span> <strong id="exp-cur-press">5,520 psi</strong></div>
+              <div class="stat-pill"><span class="lbl">ROP:</span> <strong id="exp-cur-rop">22.0 m/hr</strong></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Similar Historical Wells Selector (Top 3) -->
+        <div class="card experience-step-card mt-3">
+          <div class="step-badge">2. Similar Historical Wells (Top 3)</div>
+          <p class="section-notice">Choose global best precedent across all top 3 wells or select an individual offset well:</p>
+          <div id="exp-precedent-toggle" class="mb-2">
+            <!-- Best Historical Precedent option button -->
+          </div>
+          <div id="exp-wells-selector" class="offset-selector-tabs">
+            <!-- Dynamically populated buttons -->
+          </div>
+        </div>
+
+        <!-- 3. One Main Prominent Experience Card -->
+        <div id="exp-main-card-container" class="mt-3">
+          <!-- Dynamically populated main card: Most Relevant Historical Experience -->
+        </div>
+
+        <!-- Other Historical Events (Compact Expandable Section) -->
+        <div id="exp-other-events-container" class="mt-3">
+          <!-- Dynamically populated compact expandable list -->
+        </div>
+
+        <!-- Decision Support Evidence Summary Box -->
+        <div class="card evidence-summary-card mt-3" id="evidence-summary-box">
+          <h4 class="summary-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            Decision Support Evidence Summary
+          </h4>
+          <p class="summary-text" id="exp-summary-text">
+            Similar historical experience found. Relevant historical records provide evidence for engineer review.
+          </p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Native Modal: Well Details & Historical Timeline -->
+  <dialog id="well-details-modal" class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" id="modal-well-id">Well Details</h3>
+          <p class="modal-subtitle" id="modal-well-sub">Offset Well Information & Recorded Events</p>
+        </div>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div id="modal-loading" class="state-container hidden">
+          <div class="spinner"></div>
+          <span>Loading well events...</span>
+        </div>
+
+        <div id="modal-well-info" class="parameters-grid mb-3">
+          <!-- Populated dynamically -->
+        </div>
+
+        <h4 class="timeline-title">Historical Drilling Events Log</h4>
+        <div id="modal-events-timeline" class="events-timeline">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-outline" id="modal-footer-close">Close</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

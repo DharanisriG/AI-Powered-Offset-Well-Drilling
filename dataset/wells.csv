@@ -1,0 +1,501 @@
+well_id,field,formation,total_depth,mud_weight,pressure,rop,wob,torque,inclination,azimuth
+MO-B-101,Mumbai Offshore,Bassein Limestone,3450.0,11.2,4250.0,12.5,16.0,13.5,14.5,210.0
+MO-002,Mumbai Offshore,Bassein Limestone,3443.6,11.6,4356.2,12.6,15.5,12.9,10.7,225.3
+MO-003,Mumbai Offshore,Bassein Limestone,3500.3,11.4,4107.2,13.9,17.9,13.0,12.2,201.4
+MO-004,Mumbai Offshore,Bassein Limestone,3426.1,11.3,4251.2,11.5,17.1,12.8,13.5,207.8
+MO-005,Mumbai Offshore,Bassein Limestone,3464.0,11.5,4169.9,12.3,17.1,12.6,17.3,201.0
+MO-006,Mumbai Offshore,Bassein Limestone,3366.3,11.6,4438.0,13.3,16.1,12.7,18.2,210.4
+MO-007,Mumbai Offshore,Bassein Limestone,3380.5,11.3,4112.0,13.7,15.9,14.2,13.7,213.2
+MO-008,Mumbai Offshore,Bassein Limestone,3486.7,11.1,4439.4,13.2,18.3,14.7,17.2,227.3
+MO-009,Mumbai Offshore,Bassein Limestone,3372.1,11.1,4115.8,11.6,16.4,13.2,19.9,207.5
+MO-010,Mumbai Offshore,Bassein Limestone,3420.2,11.3,4149.3,13.3,15.3,15.0,19.3,202.0
+MO-011,Mumbai Offshore,Bassein Limestone,3351.4,11.5,4347.4,13.1,17.7,12.7,14.3,199.1
+MO-012,Mumbai Offshore,Bassein Limestone,3565.8,11.4,4215.8,10.7,16.1,13.3,18.8,217.3
+MO-013,Mumbai Offshore,Bassein Limestone,3571.8,11.3,4141.9,13.0,17.7,13.9,19.3,212.3
+MO-014,Mumbai Offshore,Bassein Limestone,3480.7,11.3,4108.9,10.9,15.1,14.1,13.8,212.8
+MO-015,Mumbai Offshore,Bassein Limestone,3576.9,11.1,4243.6,13.1,15.8,12.7,13.5,200.6
+MO-016,Mumbai Offshore,Bassein Limestone,3582.4,11.5,4321.7,13.6,17.8,13.0,20.7,213.9
+MO-017,Mumbai Offshore,Bassein Limestone,3551.9,11.5,4211.3,10.9,15.8,13.6,19.8,225.1
+MO-018,Mumbai Offshore,Bassein Limestone,3351.7,11.3,4246.1,11.3,15.4,13.3,21.3,206.3
+MO-019,Mumbai Offshore,Bassein Limestone,3479.7,11.4,4227.3,13.9,18.4,13.1,16.0,205.5
+MO-020,Mumbai Offshore,Bassein Limestone,3421.2,11.0,4313.3,12.3,15.2,13.2,20.9,203.4
+MO-021,Mumbai Offshore,Bassein Limestone,3386.2,11.3,4445.0,11.3,17.4,14.4,12.9,220.5
+MO-022,Mumbai Offshore,Bassein Limestone,3441.9,11.4,4321.7,12.4,15.3,14.6,13.8,201.5
+MO-023,Mumbai Offshore,Bassein Limestone,3360.2,11.4,4337.1,10.6,16.8,13.1,17.7,201.1
+MO-024,Mumbai Offshore,Bassein Limestone,3522.7,11.2,4427.9,11.0,16.2,12.8,21.1,225.7
+MO-025,Mumbai Offshore,Bassein Limestone,3414.5,11.4,4386.0,12.4,16.9,13.1,11.1,226.4
+MO-026,Mumbai Offshore,Bassein Limestone,3575.1,11.4,4218.7,11.7,17.5,14.7,20.6,222.3
+MO-027,Mumbai Offshore,Bassein Limestone,3510.5,11.1,4156.6,13.6,17.1,12.5,11.2,218.2
+MO-028,Mumbai Offshore,Bassein Limestone,3351.3,11.1,4292.1,12.9,17.3,13.1,18.5,203.3
+MO-029,Mumbai Offshore,Bassein Limestone,3431.3,11.4,4327.4,13.5,17.3,13.9,11.1,207.9
+MO-030,Mumbai Offshore,Bassein Limestone,3416.3,11.1,4440.6,11.9,18.1,14.1,19.5,212.6
+MO-031,Mumbai Offshore,Bassein Limestone,3494.2,11.3,4168.3,13.0,16.0,12.6,17.7,201.2
+MO-032,Mumbai Offshore,Bassein Limestone,3585.1,11.6,4420.2,11.8,15.1,14.8,15.1,228.8
+MO-033,Mumbai Offshore,Bassein Limestone,3590.9,11.5,4203.1,11.8,18.0,13.3,12.0,214.5
+MO-034,Mumbai Offshore,Bassein Limestone,3584.0,11.4,4299.5,10.8,17.2,15.0,11.7,213.1
+MO-035,Mumbai Offshore,Bassein Limestone,3569.3,11.4,4344.0,13.0,16.3,13.2,19.7,223.4
+MO-036,Mumbai Offshore,Mukta Shale,2610.1,11.0,3179.0,8.5,15.4,19.1,33.8,194.9
+MO-037,Mumbai Offshore,Mukta Shale,2617.0,10.6,3131.5,7.3,14.7,16.6,30.5,188.6
+MO-038,Mumbai Offshore,Mukta Shale,2436.0,10.8,3010.7,7.1,15.5,17.9,25.8,188.1
+MO-039,Mumbai Offshore,Mukta Shale,2581.0,10.6,3218.0,7.3,13.2,18.6,31.6,190.9
+MO-040,Mumbai Offshore,Mukta Shale,2567.8,11.1,3180.7,8.0,15.4,17.6,30.1,177.0
+MO-041,Mumbai Offshore,Mukta Shale,2357.6,11.1,3292.6,9.1,14.2,17.2,26.2,181.3
+MO-042,Mumbai Offshore,Mukta Shale,2514.8,10.9,3231.1,7.8,15.9,19.5,31.8,190.3
+MO-043,Mumbai Offshore,Mukta Shale,2475.9,10.6,3124.6,9.3,13.0,17.0,24.6,176.0
+MO-044,Mumbai Offshore,Mukta Shale,2606.6,10.9,3166.0,7.3,14.5,18.4,26.4,185.8
+MO-045,Mumbai Offshore,Mukta Shale,2469.6,10.8,3222.3,7.1,14.1,19.0,31.0,196.4
+MO-046,Mumbai Offshore,Mukta Shale,2547.6,10.5,3024.7,8.9,13.1,18.8,37.2,189.4
+MO-047,Mumbai Offshore,Mukta Shale,2466.5,10.9,3160.4,8.6,15.8,18.0,37.5,197.6
+MO-048,Mumbai Offshore,Mukta Shale,2408.7,10.4,3035.3,7.1,13.3,19.2,25.0,183.0
+MO-049,Mumbai Offshore,Mukta Shale,2603.5,10.4,3285.1,7.8,13.4,19.3,32.8,196.9
+MO-050,Mumbai Offshore,Mukta Shale,2570.5,11.0,3098.7,7.5,15.3,19.7,37.9,185.3
+MO-051,Mumbai Offshore,Mukta Shale,2461.6,10.9,3119.3,9.8,15.6,18.2,34.5,193.9
+MO-052,Mumbai Offshore,Mukta Shale,2380.9,11.0,3176.8,9.5,14.0,20.1,29.4,175.3
+MO-053,Mumbai Offshore,Mukta Shale,2621.6,10.5,3111.8,9.9,15.9,18.8,32.8,186.2
+MO-054,Mumbai Offshore,Mukta Shale,2438.0,10.6,3235.4,9.3,15.4,19.7,25.3,187.4
+MO-055,Mumbai Offshore,Mukta Shale,2367.3,10.8,3154.5,9.7,14.1,17.0,26.0,194.0
+MO-056,Mumbai Offshore,Mukta Shale,2535.5,10.5,3029.4,9.1,13.2,19.8,33.9,177.0
+MO-057,Mumbai Offshore,Mukta Shale,2375.5,11.1,3131.0,8.1,15.4,20.3,37.8,193.8
+MO-058,Mumbai Offshore,Mukta Shale,2462.9,10.5,3272.0,8.7,14.3,20.1,25.6,187.3
+MO-059,Mumbai Offshore,Mukta Shale,2353.4,10.7,3019.7,7.4,13.4,19.1,34.4,189.6
+MO-060,Mumbai Offshore,Mukta Shale,2638.7,10.7,3100.0,9.6,13.7,20.4,24.2,199.2
+MO-061,Mumbai Offshore,Panna Formation,3662.9,12.6,5134.7,15.5,20.3,18.7,27.7,100.7
+MO-062,Mumbai Offshore,Panna Formation,3838.8,12.5,5109.1,14.4,22.3,19.7,18.5,93.4
+MO-063,Mumbai Offshore,Panna Formation,3935.1,12.6,5109.5,14.4,21.1,17.6,22.6,95.6
+MO-064,Mumbai Offshore,Panna Formation,3825.1,12.1,5291.0,15.5,22.8,18.6,21.1,109.4
+MO-065,Mumbai Offshore,Panna Formation,3855.4,12.2,5268.8,15.0,23.8,19.2,24.1,97.5
+MO-066,Mumbai Offshore,Panna Formation,3929.8,12.6,4965.8,12.6,21.5,19.4,27.9,89.5
+MO-067,Mumbai Offshore,Panna Formation,3828.2,12.3,5289.5,15.0,23.4,18.4,22.1,93.2
+MO-068,Mumbai Offshore,Panna Formation,3666.9,12.6,5234.5,15.5,24.0,18.7,25.7,113.3
+MO-069,Mumbai Offshore,Panna Formation,3904.9,12.2,5107.7,12.9,23.8,18.8,20.3,105.2
+MO-070,Mumbai Offshore,Panna Formation,3835.4,12.3,4989.7,14.5,22.1,19.3,23.2,110.6
+MO-071,Mumbai Offshore,Panna Formation,3815.6,12.4,5256.8,13.7,20.5,17.1,25.6,103.6
+MO-072,Mumbai Offshore,Panna Formation,3861.2,12.2,4997.7,12.5,21.4,18.8,21.9,98.1
+MO-073,Mumbai Offshore,Panna Formation,3921.2,12.3,5129.9,14.9,21.6,18.9,26.6,113.5
+MO-074,Mumbai Offshore,Panna Formation,3694.1,12.7,5122.2,13.3,21.8,19.9,22.9,94.9
+MO-075,Mumbai Offshore,Panna Formation,3840.0,12.2,4976.6,12.9,20.5,17.5,19.4,104.2
+MO-076,Mumbai Offshore,Panna Formation,3704.6,12.3,5263.9,13.9,22.7,17.5,19.9,86.2
+MO-077,Mumbai Offshore,Panna Formation,3700.7,12.3,5012.0,12.8,20.5,18.4,20.1,95.9
+MO-078,Mumbai Offshore,Panna Formation,3801.0,12.5,4963.8,14.9,22.5,17.2,26.7,112.6
+MO-079,Mumbai Offshore,Panna Formation,3668.3,12.3,5232.2,14.7,20.7,17.6,21.7,99.5
+MO-080,Mumbai Offshore,Panna Formation,3835.5,12.3,5111.9,14.7,20.1,17.8,25.1,111.9
+MO-081,Mumbai Offshore,Bandra Clastics,2030.3,10.5,2448.2,15.8,15.9,11.6,15.5,171.3
+MO-082,Mumbai Offshore,Bandra Clastics,1809.0,10.4,2495.2,15.3,14.4,13.2,19.7,180.4
+MO-083,Mumbai Offshore,Bandra Clastics,2155.1,10.4,2439.1,16.1,16.1,12.9,17.6,163.8
+MO-084,Mumbai Offshore,Bandra Clastics,1927.7,10.4,2690.7,16.3,15.2,13.5,19.9,167.1
+MO-085,Mumbai Offshore,Bandra Clastics,1845.8,10.3,2510.7,14.6,14.7,11.7,14.3,186.9
+MO-086,Mumbai Offshore,Bandra Clastics,1836.1,10.5,2584.7,17.9,14.4,12.0,24.6,186.0
+MO-087,Mumbai Offshore,Bandra Clastics,2167.7,10.3,2476.9,16.7,17.3,12.4,19.4,168.4
+MO-088,Mumbai Offshore,Bandra Clastics,2146.3,10.3,2545.7,15.7,15.8,11.6,13.5,178.3
+MO-089,Mumbai Offshore,Bandra Clastics,1929.9,10.5,2469.5,15.9,15.9,11.1,16.4,164.0
+MO-090,Mumbai Offshore,Bandra Clastics,1828.5,10.7,2545.1,17.2,14.9,12.7,21.9,177.9
+MO-091,Mumbai Offshore,Bandra Clastics,2012.2,10.4,2557.0,17.7,16.9,13.4,13.6,181.9
+MO-092,Mumbai Offshore,Bandra Clastics,2222.3,10.3,2429.9,17.0,16.0,13.1,13.8,183.9
+MO-093,Mumbai Offshore,Bandra Clastics,1890.7,10.3,2473.9,17.3,16.3,12.3,16.7,186.3
+MO-094,Mumbai Offshore,Bandra Clastics,1976.6,10.6,2597.6,15.5,15.6,11.8,21.7,175.1
+MO-095,Mumbai Offshore,Bandra Clastics,1904.5,10.6,2572.8,16.2,17.2,12.6,13.5,188.2
+BS-001,Bassein,Bassein Limestone,3438.3,10.9,3891.8,13.9,16.4,13.3,18.7,218.7
+BS-002,Bassein,Bassein Limestone,3295.5,10.9,3924.5,13.7,14.6,13.4,17.1,221.3
+BS-003,Bassein,Bassein Limestone,3352.6,11.2,3883.2,14.0,14.9,13.0,17.6,199.5
+BS-004,Bassein,Bassein Limestone,3318.8,11.1,4066.0,13.4,16.6,13.4,11.0,205.4
+BS-005,Bassein,Bassein Limestone,3304.5,11.2,4025.0,12.7,15.9,14.4,9.8,212.6
+BS-006,Bassein,Bassein Limestone,3401.8,11.1,3855.4,14.1,17.3,13.4,16.4,222.7
+BS-007,Bassein,Bassein Limestone,3462.2,10.8,4022.9,13.3,15.8,13.8,19.2,222.8
+BS-008,Bassein,Bassein Limestone,3385.3,10.8,4145.5,14.0,14.9,14.3,18.4,210.6
+BS-009,Bassein,Bassein Limestone,3427.4,10.9,3866.4,12.5,16.9,12.0,12.0,206.9
+BS-010,Bassein,Bassein Limestone,3411.2,11.3,3953.9,12.5,16.7,13.1,10.7,208.6
+BS-011,Bassein,Bassein Limestone,3292.3,10.8,3999.5,12.8,17.2,12.9,15.0,214.0
+BS-012,Bassein,Bassein Limestone,3253.9,11.1,3903.4,14.4,14.9,13.0,9.0,224.9
+BS-013,Bassein,Bassein Limestone,3400.7,11.1,3870.1,13.7,15.1,14.2,10.5,200.7
+BS-014,Bassein,Bassein Limestone,3261.0,11.0,4019.5,11.7,16.8,13.1,14.3,208.2
+BS-015,Bassein,Bassein Limestone,3370.2,11.0,3896.6,12.0,17.1,14.4,12.5,203.1
+BS-016,Bassein,Bassein Limestone,3443.2,10.9,3857.6,12.0,16.6,13.6,8.3,201.7
+BS-017,Bassein,Bassein Limestone,3319.3,11.1,3855.9,11.8,16.9,12.4,15.8,202.1
+BS-018,Bassein,Bassein Limestone,3279.8,10.8,4066.7,14.1,17.0,13.0,16.0,201.1
+BS-019,Bassein,Bassein Limestone,3337.9,11.2,3853.9,11.8,15.1,12.1,10.2,212.5
+BS-020,Bassein,Bassein Limestone,3376.4,11.2,4095.2,12.5,15.3,12.9,15.1,203.0
+BS-021,Bassein,Bassein Limestone,3437.2,10.9,4015.6,12.8,15.4,14.4,17.2,199.2
+BS-022,Bassein,Bassein Limestone,3510.5,11.0,4118.4,13.9,15.8,12.1,11.2,211.2
+BS-023,Bassein,Bassein Limestone,3440.0,10.9,3891.8,14.0,17.5,13.3,10.1,203.2
+BS-024,Bassein,Bassein Limestone,3255.5,11.2,3885.3,13.2,15.3,13.4,15.8,219.9
+BS-025,Bassein,Bassein Limestone,3311.9,10.7,3891.1,14.2,17.1,13.5,15.2,215.0
+BS-026,Bassein,Bassein Limestone,3302.6,11.2,3975.6,12.6,16.1,12.1,10.0,217.1
+BS-027,Bassein,Bassein Limestone,3274.8,11.1,3923.6,12.7,15.4,12.9,16.6,203.9
+BS-028,Bassein,Bassein Limestone,3419.9,11.0,4049.1,14.3,16.7,12.5,8.4,202.9
+BS-029,Bassein,Bassein Limestone,3428.5,10.7,3998.9,13.3,15.5,13.9,9.3,197.3
+BS-030,Bassein,Bassein Limestone,3468.5,11.0,4056.5,12.8,15.2,14.0,17.6,215.8
+BS-031,Bassein,Bassein Limestone,3331.6,11.1,3958.3,11.8,17.3,12.3,19.4,208.4
+BS-032,Bassein,Bassein Limestone,3305.5,11.0,4111.9,13.7,16.9,13.6,16.3,220.5
+BS-033,Bassein,Bassein Limestone,3324.9,11.0,3916.4,14.5,17.3,12.1,16.5,222.8
+BS-034,Bassein,Bassein Limestone,3304.2,11.0,4124.6,11.6,16.6,12.7,19.1,224.1
+BS-035,Bassein,Bassein Limestone,3533.3,11.0,4108.6,14.0,15.5,14.1,8.4,212.9
+BS-036,Bassein,Bassein Limestone,3319.0,10.8,3873.1,13.6,15.5,13.8,8.8,204.5
+BS-037,Bassein,Bassein Limestone,3411.8,11.2,3945.6,13.4,17.2,13.5,10.8,195.7
+BS-038,Bassein,Bassein Limestone,3511.0,10.7,4112.4,13.1,17.3,14.0,20.0,205.5
+BS-039,Bassein,Bassein Limestone,3480.2,10.9,3994.0,13.4,17.1,14.5,17.2,207.5
+BS-040,Bassein,Bassein Limestone,3376.4,11.1,3921.6,11.8,15.6,12.7,11.6,202.0
+BS-041,Bassein,Panna Sandstone,3512.6,11.8,5095.7,15.0,20.0,17.5,22.2,93.7
+BS-042,Bassein,Panna Sandstone,3735.9,11.9,4896.2,16.6,22.3,16.9,26.1,74.2
+BS-043,Bassein,Panna Sandstone,3797.4,12.0,5080.0,15.8,20.9,17.0,22.3,74.4
+BS-044,Bassein,Panna Sandstone,3566.1,11.9,5022.9,14.7,18.7,18.4,28.8,93.2
+BS-045,Bassein,Panna Sandstone,3798.5,11.9,4888.7,16.2,21.3,16.0,28.2,75.6
+BS-046,Bassein,Panna Sandstone,3567.1,12.2,4957.5,15.5,18.9,18.1,22.7,73.2
+BS-047,Bassein,Panna Sandstone,3766.6,12.5,5051.7,16.3,21.1,17.2,20.9,80.2
+BS-048,Bassein,Panna Sandstone,3611.8,12.0,5003.2,15.2,18.8,16.2,26.8,71.9
+BS-049,Bassein,Panna Sandstone,3755.4,12.1,4918.2,15.6,21.8,16.5,26.8,84.1
+BS-050,Bassein,Panna Sandstone,3580.1,12.4,5029.1,15.8,21.9,18.1,27.1,90.9
+BS-051,Bassein,Panna Sandstone,3709.2,12.3,4966.5,16.1,19.1,18.1,28.7,70.7
+BS-052,Bassein,Panna Sandstone,3747.7,11.9,4867.3,16.1,19.1,18.0,28.3,82.7
+BS-053,Bassein,Panna Sandstone,3501.9,12.0,4965.9,16.9,21.0,16.3,26.3,83.5
+BS-054,Bassein,Panna Sandstone,3734.0,11.9,5016.4,15.4,22.4,16.5,26.3,93.3
+BS-055,Bassein,Panna Sandstone,3530.8,12.5,4990.8,13.7,19.7,17.6,20.7,84.6
+BS-056,Bassein,Panna Sandstone,3603.8,12.2,4766.0,16.6,22.4,18.4,27.5,73.3
+BS-057,Bassein,Panna Sandstone,3727.5,11.8,4757.7,14.6,20.5,17.8,26.8,81.1
+BS-058,Bassein,Panna Sandstone,3582.1,12.5,4899.2,15.1,19.2,17.9,26.9,75.5
+BS-059,Bassein,Panna Sandstone,3524.7,12.3,4979.1,14.5,22.3,16.0,24.3,93.6
+BS-060,Bassein,Panna Sandstone,3625.9,12.2,4889.2,14.5,22.4,16.7,28.9,75.7
+BS-061,Bassein,Panna Sandstone,3563.9,11.8,4978.1,14.8,22.0,16.9,29.7,74.6
+BS-062,Bassein,Panna Sandstone,3760.6,12.3,5019.8,16.5,21.5,17.4,21.3,70.8
+BS-063,Bassein,Mukta Shale,2576.3,10.7,3189.0,9.4,13.3,15.9,28.9,175.8
+BS-064,Bassein,Mukta Shale,2360.2,10.6,2969.3,9.7,13.7,17.9,25.1,176.4
+BS-065,Bassein,Mukta Shale,2303.5,10.3,3067.7,9.4,14.5,16.4,28.9,186.5
+BS-066,Bassein,Mukta Shale,2534.0,10.3,3094.2,8.3,13.6,18.5,23.4,177.5
+BS-067,Bassein,Mukta Shale,2485.4,10.7,3117.9,8.0,13.8,17.1,22.9,173.8
+BS-068,Bassein,Mukta Shale,2310.0,10.3,3069.1,8.4,14.4,17.6,30.0,170.0
+BS-069,Bassein,Mukta Shale,2350.2,10.4,3140.9,10.1,13.1,18.3,22.5,178.5
+BS-070,Bassein,Mukta Shale,2512.7,10.8,3164.2,10.4,13.8,17.9,22.8,187.4
+BS-071,Bassein,Mukta Shale,2464.3,10.8,3085.7,9.9,14.3,17.7,22.8,166.5
+BS-072,Bassein,Mukta Shale,2374.1,10.4,3211.5,8.7,15.4,16.5,23.8,184.7
+BS-073,Bassein,Mukta Shale,2497.6,10.6,3116.6,10.2,13.6,18.5,31.7,181.3
+BS-074,Bassein,Mukta Shale,2359.9,10.7,2971.7,8.1,13.6,16.9,30.7,183.2
+BS-075,Bassein,Mukta Shale,2522.8,10.6,3053.8,9.1,15.5,15.6,30.7,179.5
+BS-076,Bassein,Mukta Shale,2431.6,10.7,3096.0,10.6,15.3,16.8,24.8,179.8
+BS-077,Bassein,Mukta Shale,2573.7,10.4,3136.9,9.9,14.8,15.9,29.2,187.7
+BS-078,Bassein,Mukta Shale,2353.9,10.4,3241.4,8.5,15.1,17.0,24.5,186.8
+BS-079,Bassein,Mukta Shale,2433.6,10.6,3057.8,9.8,13.4,16.7,31.7,171.5
+BS-080,Bassein,Mukta Shale,2497.0,10.5,3182.0,8.4,15.4,16.9,24.4,166.8
+TP-001,Tapti,Daman Sandstone,2950.9,13.0,5451.7,23.6,21.5,15.1,38.2,149.1
+TP-002,Tapti,Daman Sandstone,2950.1,12.7,5316.5,23.1,22.3,15.7,40.4,151.1
+TP-003,Tapti,Daman Sandstone,3075.6,13.2,5392.6,19.6,20.9,14.6,37.3,153.7
+TP-004,Tapti,Daman Sandstone,2911.8,12.7,5503.5,24.1,21.1,15.8,32.4,138.0
+TP-005,Tapti,Daman Sandstone,3196.0,13.3,5302.2,24.2,22.2,16.7,36.5,145.3
+TP-006,Tapti,Daman Sandstone,3046.7,13.1,5362.8,19.2,21.1,16.3,34.0,148.5
+TP-007,Tapti,Daman Sandstone,3191.0,12.7,5602.7,21.4,23.0,14.9,38.9,151.8
+TP-008,Tapti,Daman Sandstone,3183.4,13.1,5523.7,22.4,23.0,15.9,32.3,153.6
+TP-009,Tapti,Daman Sandstone,3106.9,13.1,5397.1,22.6,21.4,16.1,33.1,148.2
+TP-010,Tapti,Daman Sandstone,3199.8,12.6,5739.7,21.2,23.0,16.5,37.7,149.8
+TP-011,Tapti,Daman Sandstone,3163.6,12.9,5447.2,22.7,22.8,16.4,40.0,143.7
+TP-012,Tapti,Daman Sandstone,3145.4,12.7,5545.0,19.0,21.1,15.4,36.0,148.9
+TP-013,Tapti,Daman Sandstone,3016.6,12.9,5406.9,21.1,20.8,14.7,38.0,148.4
+TP-014,Tapti,Daman Sandstone,3085.8,12.9,5470.9,23.7,21.8,15.7,32.3,141.8
+TP-015,Tapti,Daman Sandstone,3014.1,12.9,5561.1,21.9,22.1,16.4,40.1,149.4
+TP-016,Tapti,Daman Sandstone,3186.7,12.6,5388.1,19.0,22.3,16.7,34.4,153.5
+TP-017,Tapti,Daman Sandstone,2918.1,13.3,5458.2,19.6,21.7,15.1,34.8,141.1
+TP-018,Tapti,Daman Sandstone,3140.9,13.0,5440.1,22.4,22.5,15.2,36.1,137.4
+TP-019,Tapti,Daman Sandstone,2954.3,13.1,5381.6,21.9,22.5,14.8,37.7,140.1
+TP-020,Tapti,Daman Sandstone,3188.9,12.9,5662.7,22.0,20.2,16.1,41.5,147.0
+TP-021,Tapti,Daman Sandstone,3145.8,13.2,5402.6,20.2,22.1,15.5,40.4,153.0
+TP-022,Tapti,Daman Sandstone,3006.0,12.8,5651.2,20.5,22.9,15.6,38.7,136.9
+TP-023,Tapti,Daman Sandstone,3087.2,12.9,5564.0,19.9,22.6,16.7,34.2,136.9
+TP-024,Tapti,Daman Sandstone,2907.1,13.0,5573.2,22.0,20.8,15.5,37.9,144.9
+TP-025,Tapti,Daman Sandstone,3196.3,12.7,5612.8,21.2,21.5,16.3,38.9,154.8
+TP-026,Tapti,Daman Sandstone,2938.5,12.7,5626.0,22.2,21.0,14.7,32.9,152.9
+TP-027,Tapti,Daman Sandstone,2957.6,12.8,5402.0,21.0,20.2,15.8,32.7,151.0
+TP-028,Tapti,Daman Sandstone,2970.1,13.0,5696.0,22.6,21.9,15.3,35.3,148.4
+TP-029,Tapti,Daman Sandstone,3198.2,13.1,5551.0,23.0,21.6,14.7,37.6,154.2
+TP-030,Tapti,Daman Sandstone,2952.6,13.1,5390.4,21.9,20.3,15.6,39.6,142.0
+TP-031,Tapti,Daman Sandstone,3099.5,13.2,5717.2,20.3,21.4,14.9,41.9,153.5
+TP-032,Tapti,Daman Sandstone,3062.0,13.2,5534.4,22.4,20.3,16.4,33.3,151.5
+TP-033,Tapti,Daman Sandstone,3134.6,13.1,5316.3,20.7,20.9,15.4,32.9,153.7
+TP-034,Tapti,Daman Sandstone,3066.1,12.8,5478.6,21.5,22.1,15.8,41.2,144.9
+TP-035,Tapti,Daman Sandstone,3197.6,13.2,5393.8,24.1,20.4,16.5,35.8,152.6
+TP-036,Tapti,Mid-Tapti Gas Sand,2967.0,12.9,5376.5,19.2,19.7,15.0,31.4,143.9
+TP-037,Tapti,Mid-Tapti Gas Sand,2836.5,13.0,5324.3,21.3,19.9,16.2,37.4,139.7
+TP-038,Tapti,Mid-Tapti Gas Sand,2901.6,12.9,5161.2,20.0,20.7,14.4,32.9,131.4
+TP-039,Tapti,Mid-Tapti Gas Sand,2756.5,12.5,5437.1,20.2,22.4,15.1,32.5,140.1
+TP-040,Tapti,Mid-Tapti Gas Sand,2859.9,12.5,5324.3,18.9,21.4,15.6,31.2,131.2
+TP-041,Tapti,Mid-Tapti Gas Sand,2945.2,12.7,5120.4,22.0,19.7,15.7,37.9,134.8
+TP-042,Tapti,Mid-Tapti Gas Sand,2785.6,12.5,5206.1,18.4,21.6,14.2,34.1,149.9
+TP-043,Tapti,Mid-Tapti Gas Sand,2953.5,12.8,5207.2,20.5,21.1,15.1,31.0,147.7
+TP-044,Tapti,Mid-Tapti Gas Sand,2862.4,12.5,5228.7,19.7,22.0,15.8,36.2,130.2
+TP-045,Tapti,Mid-Tapti Gas Sand,2854.0,12.7,5106.7,19.0,21.8,14.3,34.3,134.3
+TP-046,Tapti,Mid-Tapti Gas Sand,2753.0,12.5,5441.6,21.2,22.4,15.2,30.9,141.0
+TP-047,Tapti,Mid-Tapti Gas Sand,2863.6,12.9,5134.3,20.0,20.0,14.8,35.9,139.5
+TP-048,Tapti,Mid-Tapti Gas Sand,2844.0,12.6,5260.8,21.1,22.2,16.4,36.3,136.3
+TP-049,Tapti,Mid-Tapti Gas Sand,2922.0,12.7,5189.1,21.4,19.6,16.3,33.7,142.7
+TP-050,Tapti,Mid-Tapti Gas Sand,2914.8,12.9,5322.8,20.5,19.7,15.3,31.2,144.7
+TP-051,Tapti,Mid-Tapti Gas Sand,2878.1,12.8,5114.6,18.3,21.6,14.2,30.6,130.2
+TP-052,Tapti,Mid-Tapti Gas Sand,2989.1,12.8,5223.6,19.2,20.5,15.9,35.3,133.7
+TP-053,Tapti,Mid-Tapti Gas Sand,2793.5,12.5,5331.1,21.1,20.3,14.1,30.7,149.4
+TP-054,Tapti,Mid-Tapti Gas Sand,2823.9,12.9,5318.6,19.5,20.1,14.3,34.9,145.5
+TP-055,Tapti,Mid-Tapti Gas Sand,2911.0,12.7,5114.7,21.9,21.9,14.7,37.8,142.0
+TP-056,Tapti,Mid-Tapti Gas Sand,2895.6,12.8,5384.1,20.6,19.9,14.8,37.4,134.5
+TP-057,Tapti,Mid-Tapti Gas Sand,2843.0,12.7,5253.8,20.5,22.3,14.6,31.0,133.9
+TP-058,Tapti,Mahuva Formation,2266.1,11.6,3600.1,17.4,19.1,14.1,23.3,126.3
+TP-059,Tapti,Mahuva Formation,2226.5,11.5,3794.7,17.0,18.8,13.6,16.6,133.6
+TP-060,Tapti,Mahuva Formation,2295.4,11.8,3515.1,15.1,16.9,13.8,22.4,125.3
+TP-061,Tapti,Mahuva Formation,2151.8,11.7,3756.5,16.4,18.3,13.3,17.7,134.1
+TP-062,Tapti,Mahuva Formation,2206.7,11.7,3722.7,17.2,17.0,13.2,15.1,126.2
+TP-063,Tapti,Mahuva Formation,2217.9,11.8,3534.7,15.9,18.9,12.5,20.0,138.3
+TP-064,Tapti,Mahuva Formation,2184.8,11.3,3624.4,17.2,18.2,12.0,21.8,120.9
+TP-065,Tapti,Mahuva Formation,2223.7,11.3,3835.3,15.8,17.5,12.4,17.8,141.9
+TP-066,Tapti,Mahuva Formation,2298.9,11.4,3657.0,17.0,19.2,13.5,18.5,130.3
+TP-067,Tapti,Mahuva Formation,2208.7,11.2,3716.9,15.7,18.9,12.2,20.3,132.0
+TP-068,Tapti,Mahuva Formation,2192.7,11.2,3703.0,16.5,18.2,13.5,21.1,140.1
+TP-069,Tapti,Mahuva Formation,2080.9,11.7,3674.4,14.8,16.7,12.8,22.1,137.7
+TP-070,Tapti,Mahuva Formation,2236.6,11.5,3654.1,15.0,17.5,13.1,15.8,125.5
+TP-071,Tapti,Mahuva Formation,2179.5,11.6,3849.4,17.8,18.4,13.1,20.7,139.6
+TP-072,Tapti,Mahuva Formation,2035.5,11.4,3793.9,15.8,18.2,13.5,16.7,129.1
+TP-073,Tapti,Mahuva Formation,2100.4,11.2,3508.5,17.4,17.3,13.3,17.7,143.5
+TP-074,Tapti,Mahuva Formation,2077.8,11.5,3805.5,17.4,17.1,14.0,19.1,132.1
+TP-075,Tapti,Mahuva Formation,2040.0,11.2,3754.8,16.2,17.8,13.8,21.9,124.0
+DM-001,Daman,Daman Sandstone,3233.1,13.1,5950.6,24.5,24.9,16.2,38.5,149.2
+DM-002,Daman,Daman Sandstone,3128.5,13.2,6012.5,22.6,22.8,17.9,41.6,156.7
+DM-003,Daman,Daman Sandstone,3069.6,13.3,5663.4,21.8,24.7,16.3,42.3,151.2
+DM-004,Daman,Daman Sandstone,3154.2,13.6,5658.7,24.5,24.9,17.4,45.5,145.8
+DM-005,Daman,Daman Sandstone,3175.6,13.2,5942.3,25.9,22.8,17.6,39.6,153.5
+DM-006,Daman,Daman Sandstone,3189.2,13.7,5893.4,23.1,22.3,16.4,39.8,148.8
+DM-007,Daman,Daman Sandstone,3305.2,13.4,5859.4,22.0,24.6,17.8,38.5,155.6
+DM-008,Daman,Daman Sandstone,3213.1,13.1,5833.3,23.7,22.5,18.4,44.8,155.0
+DM-009,Daman,Daman Sandstone,3188.7,13.3,5910.4,24.0,22.2,17.3,44.5,151.9
+DM-010,Daman,Daman Sandstone,3065.6,13.6,5730.5,22.7,22.5,16.8,44.1,152.8
+DM-011,Daman,Daman Sandstone,3111.5,13.6,6001.8,25.4,22.7,17.1,45.9,156.6
+DM-012,Daman,Daman Sandstone,3058.2,13.0,5835.6,25.6,23.6,17.2,38.8,154.9
+DM-013,Daman,Daman Sandstone,3296.6,13.3,5960.2,25.8,22.6,17.3,40.3,156.9
+DM-014,Daman,Daman Sandstone,3223.3,13.4,5969.2,23.3,24.7,17.3,39.3,155.4
+DM-015,Daman,Daman Sandstone,3288.0,13.2,5992.9,25.6,22.8,18.5,39.1,148.0
+DM-016,Daman,Daman Sandstone,3105.3,13.6,5911.7,22.2,23.3,17.5,38.7,158.2
+DM-017,Daman,Daman Sandstone,3291.1,13.4,6036.9,23.4,25.0,17.7,43.1,147.5
+DM-018,Daman,Daman Sandstone,3314.6,13.3,5714.9,21.6,23.7,17.3,43.8,158.4
+DM-019,Daman,Daman Sandstone,3073.8,13.5,5725.0,25.4,24.5,17.4,43.7,149.7
+DM-020,Daman,Daman Sandstone,3191.4,13.6,5833.7,23.1,23.5,18.1,40.7,147.6
+DM-021,Daman,Daman Sandstone,3263.6,13.6,5690.3,22.6,22.4,16.9,41.6,156.2
+DM-022,Daman,Daman Sandstone,3245.3,13.4,5790.9,25.3,23.4,18.4,43.1,146.9
+DM-023,Daman,Daman Sandstone,3252.9,13.2,5924.5,21.8,22.5,18.1,39.8,157.6
+DM-024,Daman,Daman Sandstone,3133.8,13.5,5927.7,23.8,22.9,16.5,38.3,149.6
+DM-025,Daman,Daman Sandstone,3245.9,13.7,5998.5,24.9,24.4,17.7,40.1,158.6
+DM-026,Daman,Daman Sandstone,3251.2,13.4,5694.4,23.5,23.4,18.2,42.4,150.7
+DM-027,Daman,Daman Sandstone,3343.0,13.1,5819.0,21.7,24.2,18.3,40.2,157.9
+DM-028,Daman,Daman Sandstone,3137.7,13.6,5951.6,25.1,22.1,18.4,43.8,149.6
+DM-029,Daman,Daman Sandstone,3298.8,13.2,5999.1,22.0,24.1,17.4,38.8,148.6
+DM-030,Daman,Daman Sandstone,3053.7,13.3,5770.5,24.2,22.9,16.7,43.9,145.7
+DM-031,Daman,Daman Sandstone,3320.9,13.6,5917.1,24.2,24.7,16.5,38.6,148.6
+DM-032,Daman,Daman Sandstone,3288.4,13.0,5883.1,26.0,24.6,17.3,38.5,157.5
+DM-033,Daman,Daman Sandstone,3229.7,13.1,5687.5,25.6,24.0,18.1,45.0,153.6
+DM-034,Daman,Daman Sandstone,3205.2,13.3,5776.8,23.5,24.3,17.5,45.1,151.7
+DM-035,Daman,Daman Sandstone,3232.1,13.4,5886.7,24.7,22.7,17.3,38.8,150.8
+DM-036,Daman,Mahim Clastics,1796.3,10.5,2682.7,6.8,27.7,12.5,11.7,52.1
+DM-037,Daman,Mahim Clastics,1726.3,10.4,2515.4,5.1,24.7,12.1,14.7,59.9
+DM-038,Daman,Mahim Clastics,1794.6,10.3,2563.8,5.8,25.0,12.5,6.0,50.2
+DM-039,Daman,Mahim Clastics,1715.7,10.2,2387.8,6.0,28.0,12.6,10.6,58.8
+DM-040,Daman,Mahim Clastics,1929.5,10.4,2380.5,6.9,24.6,12.2,10.6,76.2
+DM-041,Daman,Mahim Clastics,1798.1,10.6,2697.5,5.4,25.4,12.3,9.8,62.3
+DM-042,Daman,Mahim Clastics,1922.3,10.6,2562.8,5.9,28.1,13.4,13.4,50.0
+DM-043,Daman,Mahim Clastics,1840.9,10.2,2440.2,5.2,27.0,12.9,7.0,61.5
+DM-044,Daman,Mahim Clastics,1786.9,10.4,2392.4,6.3,27.8,11.6,6.7,60.6
+DM-045,Daman,Mahim Clastics,1932.5,10.5,2587.5,6.1,27.0,11.5,11.7,77.4
+DM-046,Daman,Mahim Clastics,1833.8,10.6,2603.4,5.4,28.5,11.6,10.8,54.3
+DM-047,Daman,Mahim Clastics,1653.5,10.4,2453.3,6.5,26.9,11.6,7.1,66.8
+DM-048,Daman,Mahim Clastics,1753.0,10.6,2578.3,7.5,27.5,12.4,12.1,58.3
+DM-049,Daman,Mahim Clastics,1741.9,10.6,2506.2,7.4,28.1,13.2,14.2,62.9
+DM-050,Daman,Mahim Clastics,1745.7,10.5,2479.9,6.8,27.5,12.9,9.4,55.0
+DM-051,Daman,Mahim Clastics,1779.2,10.3,2661.5,6.0,24.8,11.6,11.8,69.1
+DM-052,Daman,Mahim Clastics,1752.2,10.2,2493.4,5.9,27.4,12.7,9.3,56.5
+DM-053,Daman,Mahim Clastics,1946.4,10.4,2590.9,5.4,26.4,11.6,10.5,78.9
+DM-054,Daman,Mahim Clastics,1765.3,10.2,2360.8,6.2,24.8,11.5,12.8,63.8
+DM-055,Daman,Mahim Clastics,1736.8,10.7,2390.6,7.9,25.6,13.3,11.4,74.8
+DM-056,Daman,Navsari Shale,2594.4,11.0,3634.5,9.9,15.3,16.0,30.4,139.6
+DM-057,Daman,Navsari Shale,2443.8,11.1,3554.8,11.4,15.5,15.9,27.6,140.8
+DM-058,Daman,Navsari Shale,2270.2,11.0,3358.1,11.9,16.0,16.0,30.8,139.2
+DM-059,Daman,Navsari Shale,2405.4,11.2,3445.6,9.9,17.5,17.6,31.2,152.1
+DM-060,Daman,Navsari Shale,2467.2,10.9,3408.1,8.6,15.7,16.6,27.3,163.9
+DM-061,Daman,Navsari Shale,2568.3,11.2,3463.4,11.5,14.5,17.4,26.2,158.8
+DM-062,Daman,Navsari Shale,2346.5,11.3,3627.6,9.0,15.6,17.9,29.8,160.9
+DM-063,Daman,Navsari Shale,2456.1,11.0,3364.3,9.2,16.7,16.2,30.1,149.8
+DM-064,Daman,Navsari Shale,2452.0,11.3,3642.3,9.9,16.9,17.3,30.7,163.7
+DM-065,Daman,Navsari Shale,2320.2,10.9,3591.6,10.0,17.0,17.7,25.6,161.5
+DM-066,Daman,Navsari Shale,2406.9,11.1,3500.6,11.7,14.1,16.4,31.9,156.7
+DM-067,Daman,Navsari Shale,2492.4,10.9,3369.8,9.8,16.8,15.8,27.1,163.7
+DM-068,Daman,Navsari Shale,2253.1,11.4,3520.7,11.4,15.0,15.0,32.4,160.0
+DM-069,Daman,Navsari Shale,2509.2,10.9,3551.4,11.2,16.3,17.3,33.5,153.4
+DM-070,Daman,Navsari Shale,2281.0,11.1,3281.1,9.9,15.4,15.2,28.5,138.3
+HR-001,Heera,Heera Carbonate,2492.5,11.2,3175.3,16.3,16.6,12.2,16.8,315.0
+HR-002,Heera,Heera Carbonate,2488.4,11.0,3167.6,13.3,16.2,12.2,18.3,308.4
+HR-003,Heera,Heera Carbonate,2491.0,11.2,3291.8,16.2,16.0,12.7,18.3,319.2
+HR-004,Heera,Heera Carbonate,2543.7,11.0,3275.2,15.3,15.4,13.7,21.0,313.5
+HR-005,Heera,Heera Carbonate,2425.8,11.0,3175.1,15.4,15.7,13.3,24.2,324.1
+HR-006,Heera,Heera Carbonate,2415.8,10.9,3200.0,15.7,15.8,12.7,18.8,304.0
+HR-007,Heera,Heera Carbonate,2438.9,10.6,3412.0,14.1,15.0,12.8,16.5,308.3
+HR-008,Heera,Heera Carbonate,2462.1,10.6,3443.8,13.0,15.7,13.4,19.2,303.1
+HR-009,Heera,Heera Carbonate,2358.1,10.8,3444.9,14.1,17.4,13.7,20.3,327.3
+HR-010,Heera,Heera Carbonate,2363.2,11.2,3181.3,15.4,16.5,12.5,22.3,321.1
+HR-011,Heera,Heera Carbonate,2251.3,10.7,3399.6,15.3,17.9,13.4,25.5,321.1
+HR-012,Heera,Heera Carbonate,2339.4,10.7,3423.6,15.3,15.1,12.4,25.6,315.0
+HR-013,Heera,Heera Carbonate,2379.8,10.9,3223.1,14.3,16.1,11.6,23.7,312.5
+HR-014,Heera,Heera Carbonate,2496.7,11.1,3224.2,15.3,16.4,13.7,18.2,320.3
+HR-015,Heera,Heera Carbonate,2432.3,10.8,3197.8,15.3,17.2,12.3,22.4,311.9
+HR-016,Heera,Heera Carbonate,2464.0,10.7,3461.6,14.0,16.1,11.6,17.1,315.5
+HR-017,Heera,Heera Carbonate,2330.3,11.1,3155.1,14.3,16.0,11.5,17.2,312.4
+HR-018,Heera,Heera Carbonate,2397.9,10.8,3335.8,15.1,15.0,12.7,25.6,315.6
+HR-019,Heera,Heera Carbonate,2453.3,10.8,3420.9,15.7,16.6,13.9,17.3,300.5
+HR-020,Heera,Heera Carbonate,2481.0,11.1,3192.1,13.9,15.1,12.2,23.7,315.5
+HR-021,Heera,Heera Carbonate,2354.4,10.8,3150.5,14.0,16.9,13.9,24.5,300.7
+HR-022,Heera,Heera Carbonate,2519.6,11.1,3423.1,14.6,16.2,12.3,16.7,306.8
+HR-023,Heera,Heera Carbonate,2324.0,10.9,3411.6,14.7,15.2,13.9,25.4,323.6
+HR-024,Heera,Heera Carbonate,2547.4,10.9,3487.0,13.3,16.1,12.1,18.0,304.2
+HR-025,Heera,Heera Carbonate,2436.7,11.1,3352.4,13.5,17.4,13.1,19.9,320.2
+HR-026,Heera,Heera Carbonate,2328.0,10.8,3471.1,14.0,16.4,13.7,23.1,301.9
+HR-027,Heera,Heera Carbonate,2294.2,10.6,3370.8,14.6,15.4,13.9,21.3,307.3
+HR-028,Heera,Heera Carbonate,2400.2,11.0,3176.7,14.0,17.4,12.6,21.5,313.0
+HR-029,Heera,Heera Carbonate,2263.2,10.7,3305.9,13.7,15.1,13.6,25.8,323.8
+HR-030,Heera,Heera Carbonate,2506.1,10.7,3486.2,13.7,17.9,14.0,23.1,329.4
+HR-031,Heera,Heera Carbonate,2420.9,10.8,3302.9,15.1,15.2,13.1,25.8,305.7
+HR-032,Heera,Heera Carbonate,2487.8,11.1,3480.3,16.4,16.6,13.9,23.6,304.9
+HR-033,Heera,Heera Carbonate,2393.1,11.0,3236.6,15.2,17.0,11.9,21.7,323.1
+HR-034,Heera,Heera Carbonate,2399.7,10.6,3153.2,14.2,17.8,12.1,22.3,306.7
+HR-035,Heera,Heera Carbonate,2346.5,11.1,3405.1,13.3,16.3,11.6,20.8,319.9
+HR-036,Heera,Bandra Shale,2085.6,10.7,2989.2,9.3,16.5,17.7,32.6,291.2
+HR-037,Heera,Bandra Shale,2167.7,11.0,3171.4,9.4,15.2,18.7,32.9,287.5
+HR-038,Heera,Bandra Shale,2219.2,10.7,3079.8,7.2,14.1,20.7,26.0,295.2
+HR-039,Heera,Bandra Shale,2116.3,10.5,2862.6,7.0,16.1,18.5,34.5,297.4
+HR-040,Heera,Bandra Shale,2181.0,10.8,3030.8,8.8,14.3,18.7,33.9,308.4
+HR-041,Heera,Bandra Shale,2317.8,10.8,3123.1,7.9,15.0,18.2,30.9,285.6
+HR-042,Heera,Bandra Shale,2149.5,11.0,2922.5,6.7,13.7,20.8,30.1,292.3
+HR-043,Heera,Bandra Shale,2293.3,11.0,2966.3,8.6,15.8,19.8,26.5,306.3
+HR-044,Heera,Bandra Shale,2211.7,10.7,2998.8,6.6,13.9,20.2,25.0,292.5
+HR-045,Heera,Bandra Shale,2206.8,10.5,3190.6,7.2,14.4,18.6,27.3,280.0
+HR-046,Heera,Bandra Shale,2268.8,11.1,2928.5,8.5,15.7,20.5,29.2,289.1
+HR-047,Heera,Bandra Shale,2147.6,10.9,3135.9,7.0,14.6,20.7,33.1,309.5
+HR-048,Heera,Bandra Shale,2276.3,10.7,3056.7,8.5,13.7,19.4,32.1,285.0
+HR-049,Heera,Bandra Shale,2284.2,10.9,3183.3,6.6,14.3,19.6,28.0,301.4
+HR-050,Heera,Bandra Shale,2277.7,10.6,3029.8,8.0,14.6,20.8,33.3,300.9
+HR-051,Heera,Bandra Shale,2264.3,10.8,3172.3,8.6,15.7,20.5,27.7,304.2
+HR-052,Heera,Bandra Shale,2108.6,10.7,2967.5,9.4,16.1,20.0,32.3,296.9
+HR-053,Heera,Bandra Shale,2334.1,10.8,2983.2,7.0,15.9,20.1,28.8,280.8
+HR-054,Heera,Bandra Shale,2301.7,10.5,3096.3,9.4,14.8,18.3,32.0,304.5
+HR-055,Heera,Bandra Shale,2213.9,11.1,2868.1,8.0,15.7,20.5,26.8,304.0
+HR-056,Heera,Bassein Deep,3315.8,11.3,4089.5,13.2,16.5,13.8,20.9,316.1
+HR-057,Heera,Bassein Deep,3351.8,11.6,4125.1,12.6,17.7,15.1,27.1,290.4
+HR-058,Heera,Bassein Deep,3352.2,11.1,4214.7,11.7,16.9,13.9,24.2,300.0
+HR-059,Heera,Bassein Deep,3369.8,11.3,4070.5,13.0,16.9,14.1,24.9,300.0
+HR-060,Heera,Bassein Deep,3167.0,11.3,4333.3,12.6,18.0,14.6,20.0,302.6
+HR-061,Heera,Bassein Deep,3375.3,11.2,4133.4,11.7,17.3,15.5,18.7,305.6
+HR-062,Heera,Bassein Deep,3203.8,11.7,4084.0,12.0,18.2,14.8,22.2,300.4
+HR-063,Heera,Bassein Deep,3269.3,11.3,4111.6,12.2,16.8,13.7,24.6,319.1
+HR-064,Heera,Bassein Deep,3331.1,11.1,4072.7,13.4,16.9,13.2,24.0,308.7
+HR-065,Heera,Bassein Deep,3344.6,11.3,4054.5,13.4,16.8,14.7,25.1,308.3
+RT-001,Ratna,Ratna Limestone,2593.9,11.9,3629.3,16.6,19.8,13.8,31.9,238.3
+RT-002,Ratna,Ratna Limestone,2721.0,12.2,3510.8,15.8,19.1,15.2,34.9,210.5
+RT-003,Ratna,Ratna Limestone,2674.9,11.9,3585.1,16.9,18.2,15.6,32.3,230.2
+RT-004,Ratna,Ratna Limestone,2793.1,11.8,3452.5,15.3,17.3,15.4,41.0,223.0
+RT-005,Ratna,Ratna Limestone,2577.6,12.0,3667.0,14.0,18.8,15.0,37.7,217.3
+RT-006,Ratna,Ratna Limestone,2714.2,11.8,3509.8,16.6,19.2,13.5,33.0,216.4
+RT-007,Ratna,Ratna Limestone,2581.2,11.8,3468.8,15.4,19.2,15.0,38.1,212.4
+RT-008,Ratna,Ratna Limestone,2785.4,12.2,3691.5,16.5,19.8,14.9,32.4,228.5
+RT-009,Ratna,Ratna Limestone,2722.9,12.1,3606.4,14.2,18.1,15.8,37.0,226.1
+RT-010,Ratna,Ratna Limestone,2580.7,11.9,3718.6,16.0,19.4,14.6,37.6,217.5
+RT-011,Ratna,Ratna Limestone,2711.6,12.0,3582.8,15.9,19.8,13.7,39.9,218.8
+RT-012,Ratna,Ratna Limestone,2633.2,11.7,3540.3,15.5,17.2,14.7,41.1,213.2
+RT-013,Ratna,Ratna Limestone,2729.3,11.9,3646.6,14.8,17.5,13.9,30.8,215.6
+RT-014,Ratna,Ratna Limestone,2699.3,12.2,3694.2,16.1,17.3,14.2,33.7,217.5
+RT-015,Ratna,Ratna Limestone,2654.5,12.0,3557.1,15.1,19.5,15.5,33.7,237.4
+RT-016,Ratna,Ratna Limestone,2785.8,11.9,3556.3,15.5,19.8,15.7,31.2,221.8
+RT-017,Ratna,Ratna Limestone,2666.0,12.0,3508.2,16.6,19.0,15.6,40.3,232.5
+RT-018,Ratna,Ratna Limestone,2631.8,12.1,3498.1,16.0,17.5,15.2,32.8,213.5
+RT-019,Ratna,Ratna Limestone,2549.6,11.7,3665.6,16.2,18.5,13.9,31.0,210.6
+RT-020,Ratna,Ratna Limestone,2549.7,12.2,3522.5,15.1,17.3,14.1,36.2,228.2
+RT-021,Ratna,Ratna Limestone,2573.6,11.7,3567.3,14.7,17.7,15.9,37.4,226.7
+RT-022,Ratna,Ratna Limestone,2624.7,12.0,3612.3,16.1,19.1,13.9,36.0,222.4
+RT-023,Ratna,Ratna Limestone,2761.2,12.1,3609.8,14.3,18.8,13.8,34.0,214.3
+RT-024,Ratna,Ratna Limestone,2707.6,11.8,3567.6,16.7,17.6,14.8,35.0,210.5
+RT-025,Ratna,Ratna Limestone,2737.8,11.7,3592.3,15.7,18.9,15.2,33.0,210.3
+RT-026,Ratna,Ratna Limestone,2717.0,12.0,3700.8,16.5,19.5,14.7,34.0,233.7
+RT-027,Ratna,Ratna Limestone,2635.4,11.8,3706.5,16.6,18.4,13.7,34.7,234.1
+RT-028,Ratna,Ratna Limestone,2770.5,11.8,3470.1,16.6,18.2,14.9,41.6,212.0
+RT-029,Ratna,Ratna Limestone,2694.5,11.7,3562.6,16.4,18.3,16.0,36.7,219.6
+RT-030,Ratna,Ratna Limestone,2566.0,11.9,3561.8,14.2,18.1,14.7,38.7,229.7
+RT-031,Ratna,Chattrabuj Sand,2562.6,12.0,3365.3,18.3,19.5,14.5,43.0,244.3
+RT-032,Ratna,Chattrabuj Sand,2514.5,12.0,3530.0,18.0,20.3,16.4,43.0,238.0
+RT-033,Ratna,Chattrabuj Sand,2392.1,12.4,3486.1,18.6,18.5,15.0,43.9,243.7
+RT-034,Ratna,Chattrabuj Sand,2622.5,12.5,3479.1,18.3,20.7,15.9,41.3,228.9
+RT-035,Ratna,Chattrabuj Sand,2492.2,12.4,3381.3,16.7,18.9,15.1,37.1,235.6
+RT-036,Ratna,Chattrabuj Sand,2622.4,12.3,3356.4,16.3,20.1,15.5,43.2,241.5
+RT-037,Ratna,Chattrabuj Sand,2588.9,12.2,3507.7,16.9,20.8,16.1,38.2,231.7
+RT-038,Ratna,Chattrabuj Sand,2407.3,12.4,3365.6,18.1,18.8,16.2,43.1,244.5
+RT-039,Ratna,Chattrabuj Sand,2578.3,12.1,3326.5,18.4,19.1,15.6,35.3,231.5
+RT-040,Ratna,Chattrabuj Sand,2360.1,12.5,3373.0,18.0,18.1,16.2,38.2,247.4
+RT-041,Ratna,Chattrabuj Sand,2616.4,12.2,3570.3,19.5,20.5,16.6,37.5,239.4
+RT-042,Ratna,Chattrabuj Sand,2370.2,12.1,3599.7,17.1,20.2,16.5,43.6,249.9
+RT-043,Ratna,Chattrabuj Sand,2422.4,12.0,3423.4,16.5,18.1,15.4,42.8,239.2
+RT-044,Ratna,Chattrabuj Sand,2443.8,12.4,3369.6,16.1,20.3,16.1,42.6,226.0
+RT-045,Ratna,Chattrabuj Sand,2601.1,12.4,3469.0,18.2,20.6,16.0,40.8,249.8
+RT-046,Ratna,Chattrabuj Sand,2577.0,12.3,3512.2,17.4,18.7,16.0,44.3,248.2
+RT-047,Ratna,Chattrabuj Sand,2452.6,12.3,3363.5,19.5,20.9,16.1,43.0,242.9
+RT-048,Ratna,Chattrabuj Sand,2527.9,12.0,3436.4,18.4,20.0,15.4,44.4,229.2
+RT-049,Ratna,Panna Shale,2975.1,11.8,4128.9,11.3,16.3,16.5,32.4,223.0
+RT-050,Ratna,Panna Shale,2862.8,11.8,4032.1,11.3,18.0,16.5,26.2,228.4
+RT-051,Ratna,Panna Shale,3013.4,11.8,4185.3,11.8,18.4,17.6,30.9,217.1
+RT-052,Ratna,Panna Shale,2853.8,11.7,3960.8,12.2,17.2,17.8,29.5,206.6
+RT-053,Ratna,Panna Shale,2811.1,11.7,3883.8,11.1,18.1,18.6,32.6,211.3
+RT-054,Ratna,Panna Shale,3102.0,11.9,3928.7,11.6,16.4,18.4,36.0,205.9
+RT-055,Ratna,Panna Shale,3114.1,11.8,4239.4,10.6,18.0,16.2,29.4,207.0
+RT-056,Ratna,Panna Shale,3141.4,11.9,4191.0,12.3,15.8,17.2,26.7,211.3
+RT-057,Ratna,Panna Shale,2880.3,11.7,3957.4,9.4,16.0,16.4,35.7,227.8
+RT-058,Ratna,Panna Shale,3138.7,11.7,3961.3,11.8,16.5,16.9,28.3,208.9
+RT-059,Ratna,Panna Shale,2889.8,11.6,4119.6,9.2,16.1,18.4,27.5,215.3
+RT-060,Ratna,Panna Shale,3102.6,11.5,3883.1,10.7,16.4,17.7,34.0,209.1
+MK-001,Mukta,Mukta Shale,2574.2,10.9,3143.2,8.7,14.3,19.2,28.8,185.6
+MK-002,Mukta,Mukta Shale,2491.9,11.1,3117.1,8.2,14.9,20.0,33.7,190.3
+MK-003,Mukta,Mukta Shale,2633.1,11.1,3194.2,8.5,16.0,21.0,36.9,183.5
+MK-004,Mukta,Mukta Shale,2458.5,10.9,3322.5,8.4,14.9,20.4,31.6,194.8
+MK-005,Mukta,Mukta Shale,2522.0,10.8,3236.2,9.1,13.9,18.2,37.5,179.0
+MK-006,Mukta,Mukta Shale,2570.3,10.9,3246.9,8.8,14.2,19.4,31.7,190.2
+MK-007,Mukta,Mukta Shale,2442.4,10.9,3155.6,7.8,14.2,18.1,36.3,181.6
+MK-008,Mukta,Mukta Shale,2678.1,11.2,3271.4,7.4,14.6,20.3,31.7,177.0
+MK-009,Mukta,Mukta Shale,2567.0,11.1,3338.8,7.5,15.5,18.3,30.2,195.1
+MK-010,Mukta,Mukta Shale,2474.9,10.8,3100.2,9.4,15.9,19.7,35.5,178.5
+MK-011,Mukta,Mukta Shale,2537.5,10.8,3128.1,8.4,16.3,17.6,30.9,179.8
+MK-012,Mukta,Mukta Shale,2471.4,11.1,3240.4,8.3,15.8,18.0,32.9,184.9
+MK-013,Mukta,Mukta Shale,2579.1,11.2,3330.8,8.1,16.0,18.1,28.3,179.7
+MK-014,Mukta,Mukta Shale,2502.1,10.9,3284.5,9.5,15.0,19.3,28.5,175.8
+MK-015,Mukta,Mukta Shale,2565.3,10.9,3351.8,7.4,13.6,19.1,30.4,176.1
+MK-016,Mukta,Mukta Shale,2617.4,10.7,3282.5,7.8,14.0,18.8,36.0,184.0
+MK-017,Mukta,Mukta Shale,2625.2,10.7,3331.8,7.7,15.5,19.5,37.3,183.9
+MK-018,Mukta,Mukta Shale,2419.8,10.6,3348.1,8.5,15.8,18.3,31.5,175.7
+MK-019,Mukta,Mukta Shale,2688.4,11.0,3380.0,7.7,15.3,19.9,31.2,194.5
+MK-020,Mukta,Mukta Shale,2684.1,11.1,3321.7,7.8,14.3,20.9,28.1,191.5
+MK-021,Mukta,Mukta Shale,2611.9,11.0,3397.0,7.9,14.5,17.8,32.4,181.0
+MK-022,Mukta,Mukta Shale,2503.0,11.1,3380.6,7.5,14.6,20.8,28.6,177.1
+MK-023,Mukta,Mukta Shale,2448.8,11.0,3145.1,9.7,14.8,19.3,30.5,185.8
+MK-024,Mukta,Mukta Shale,2598.6,11.1,3326.2,8.6,16.2,20.4,35.6,176.3
+MK-025,Mukta,Mukta Shale,2402.1,10.7,3299.1,8.2,14.7,20.6,37.0,195.9
+MK-026,Mukta,Mukta Carbonate,2694.2,11.3,3495.1,11.7,16.1,13.9,24.3,180.8
+MK-027,Mukta,Mukta Carbonate,2636.0,11.3,3586.0,12.0,17.0,13.7,26.0,170.8
+MK-028,Mukta,Mukta Carbonate,2649.3,11.0,3591.3,14.2,16.5,14.8,26.6,183.3
+MK-029,Mukta,Mukta Carbonate,2846.3,11.2,3630.0,14.1,16.7,13.8,20.1,180.7
+MK-030,Mukta,Mukta Carbonate,2840.3,11.0,3601.9,12.6,15.9,15.5,22.1,161.7
+MK-031,Mukta,Mukta Carbonate,2778.5,11.3,3411.4,13.3,17.1,13.3,21.7,174.2
+MK-032,Mukta,Mukta Carbonate,2688.9,11.5,3686.6,14.4,16.3,15.4,24.3,168.7
+MK-033,Mukta,Mukta Carbonate,2615.1,10.9,3642.2,12.6,16.2,14.5,22.5,174.4
+MK-034,Mukta,Mukta Carbonate,2707.8,11.4,3687.2,12.7,16.6,13.9,28.1,168.2
+MK-035,Mukta,Mukta Carbonate,2662.7,11.0,3563.3,12.7,18.0,13.6,23.8,180.2
+MK-036,Mukta,Mukta Carbonate,2847.1,11.1,3560.7,12.1,18.3,13.3,29.3,177.1
+MK-037,Mukta,Mukta Carbonate,2759.5,10.9,3566.5,12.4,16.0,14.6,29.7,174.1
+MK-038,Mukta,Mukta Carbonate,2814.4,10.9,3546.2,11.4,17.3,15.3,26.6,161.9
+MK-039,Mukta,Mukta Carbonate,2706.4,11.2,3541.1,13.9,17.9,14.5,23.7,166.4
+MK-040,Mukta,Mukta Carbonate,2631.8,11.1,3544.6,13.4,17.5,13.2,24.0,164.5
+MK-041,Mukta,Mukta Carbonate,2647.0,11.4,3414.7,12.5,16.0,15.2,25.6,165.8
+MK-042,Mukta,Mukta Carbonate,2750.7,11.3,3735.3,11.8,18.2,15.3,29.2,175.9
+MK-043,Mukta,Mukta Carbonate,2788.9,11.1,3663.3,12.9,17.5,14.1,27.3,180.6
+MK-044,Mukta,Panna Formation,3551.3,12.5,5066.1,15.0,21.0,17.6,27.2,96.3
+MK-045,Mukta,Panna Formation,3795.5,12.3,5055.6,13.4,21.5,17.5,18.4,96.8
+MK-046,Mukta,Panna Formation,3502.2,12.6,5236.3,13.7,22.0,17.5,24.7,110.1
+MK-047,Mukta,Panna Formation,3831.4,12.2,5163.3,13.3,23.0,16.6,24.0,106.5
+MK-048,Mukta,Panna Formation,3740.8,12.1,5225.4,13.0,21.7,17.2,21.1,103.7
+MK-049,Mukta,Panna Formation,3646.0,12.1,4918.4,13.8,22.2,19.2,18.8,99.8
+MK-050,Mukta,Panna Formation,3535.1,12.0,5114.7,14.3,20.1,17.2,18.2,110.9
+MK-051,Mukta,Panna Formation,3841.1,12.1,4942.6,15.1,22.7,17.8,18.5,91.0
+MK-052,Mukta,Panna Formation,3700.9,12.2,4861.5,14.2,19.5,18.9,21.1,91.0
+MK-053,Mukta,Panna Formation,3705.9,12.2,5239.5,14.1,20.5,18.6,20.7,112.6
+MK-054,Mukta,Panna Formation,3631.2,12.3,4870.2,13.8,22.4,18.9,20.2,95.7
+MK-055,Mukta,Panna Formation,3786.1,12.6,4888.1,13.9,20.7,19.1,18.8,95.3
