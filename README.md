@@ -328,3 +328,6 @@ Content-Type: application/json
 2. **Transparent Mathematical Model**: Fully explainable KNN + StandardScaler similarity based on 8 realistic drilling features.
 3. **Structured Evidence Retrieval**: Links offset wells to actionable historical events detailing *What Happened*, *Action Taken*, and *Result*.
 4. **Tested & Validated**: Full test suite confirming data integrity, distance bounds, and event linkage.
+## Contribution Notes
+
+Documentation and testing improvements are welcome.
